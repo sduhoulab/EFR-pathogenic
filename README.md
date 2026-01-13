@@ -30,6 +30,7 @@ ClinVar：https://www.ncbi.nlm.nih.gov/clinvar/
 **Population Control:** ~6.6 million common variants from gnomAD and UK Biobank (UKB).
 
 gnomAD: https://gnomad.broadinstitute.org/
+
 UK Biobank: [Link](https://www.ukbiobank.ac.uk/)
 
 
