@@ -31,7 +31,7 @@ ClinVar：https://www.ncbi.nlm.nih.gov/clinvar/
 
 gnomAD: https://gnomad.broadinstitute.org/
 
-UK Biobank: [Link](https://www.ukbiobank.ac.uk/)
+UK Biobank: https://www.ukbiobank.ac.uk/
 
 
 **Dataset 5 (Somatic & Clinical - MSK-MET):**
