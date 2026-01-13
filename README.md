@@ -11,7 +11,7 @@ We established a comprehensive framework integrating deep learning with biophysi
 ## **Datasets**
 ### Training and Biophysical Validation
 **Dataset 1 (Training - Benchmark37):** Derived from the Start2Fold database. Contains 37 proteins with high-quality experimental annotations (HDX/NMR) defining early folding sites.
-Source: Start2Fold Database
+Source: [sduhoulab/LMEFold at main](https://huggingface.co/datasets/sduhoulab/LMEFold/tree/main/data)
 
 
 **Dataset 2 (External Validation - PF-HDX-EvalSet):** Consists of 431 residues from 10 proteins with experimentally determined protection factors (PFs) measured via HDX-NMR to validate biophysical relevance.
@@ -23,19 +23,27 @@ Source: RCSB PDB
 
 ### Genomic and Clinical Cohorts
 **Dataset 4 (Germline Variants):**
-Pathogenic: 23,370 missense variants from ClinVar. Link
-Population Control: ~6.6 million common variants from gnomAD and UK Biobank (UKB).
-gnomAD: Link
-UK Biobank: Link
+**Pathogenic:** 23,370 missense variants from ClinVar.
+
+ClinVar：https://www.ncbi.nlm.nih.gov/clinvar/
+
+**Population Control:** ~6.6 million common variants from gnomAD and UK Biobank (UKB).
+
+gnomAD: https://gnomad.broadinstitute.org/
+UK Biobank: [Link](https://www.ukbiobank.ac.uk/)
 
 
 **Dataset 5 (Somatic & Clinical - MSK-MET):**
 A pan-cancer cohort containing 129,411 somatic nonsynonymous single-nucleotide variants (nsSNVs) with corresponding patient survival data.
-Source: cBioPortal / MSK-MET
+
+Source: [cBioPortal / MSK-MET](https://www.cbioportal.org/)
+
 ## **Methods**
 ### Core Framework
-LMEFold: The proposed framework based on the ESM-2 protein language model (specifically esm2_t30_650M_UR50D) for EFR prediction.
+**LMEFold:** The proposed framework based on the ESM-2 protein language model (specifically esm2_t30_650M_UR50D) for EFR prediction.
+
 Repository: https://huggingface.co/datasets/sduhoulab/LMEFold
+
 ### Baselines & Comparators
 **ESM-2:** Pre-trained evolutionary scale modeling.
 
@@ -51,8 +59,10 @@ Source: http://www.csbio.sjtu.edu.cn/bioinf/EFoldMine/
 
 ### Structural Analysis Tools
 **FoldX 5.0:** Used for calculating folding free energy changes (ΔΔG).
+
 Source: http://foldxsuite.crg.eu/
 
 
 **VEP (Variant Effect Predictor):** Used for mapping genomic variants to protein residues.
+
 Source: https://www.ensembl.org/info/docs/tools/vep/index.html
