@@ -1,6 +1,7 @@
 # **LMEFold: A Deep Learning Framework for Early Folding Residue Prediction and Disease Association Analysis**
 ## **Workflow**
-<img width="2480" height="3508" alt="模型1 12" src="https://github.com/user-attachments/assets/7c8ea425-35ce-4040-9ccb-a2bf338f3d11" />
+![5d1acee5a92e6f8e6c24944b2813f7c2](https://github.com/user-attachments/assets/0eb80cac-3e3f-4e21-bc06-a8a6275390cb)
+
 
 We established a comprehensive framework integrating deep learning with biophysical and clinical validation to decode the role of Early Folding Residues (EFRs) in protein stability and disease.
 
