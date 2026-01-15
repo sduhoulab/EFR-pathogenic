@@ -15,7 +15,7 @@ We established a comprehensive framework integrating deep learning with biophysi
 ### Training and Biophysical Validation
 **Dataset 1 (Training - Benchmark37):** Derived from the Start2Fold database. Contains 37 proteins with high-quality experimental annotations (HDX/NMR) defining early folding sites.
 
-Source: [sduhoulab/LMEFold at main](https://huggingface.co/datasets/sduhoulab/LMEFold/tree/main/data)
+Source: https://huggingface.co/datasets/sduhoulab/LMEFold/tree/main/data
 
 
 **Dataset 2 (External Validation - PF-HDX-EvalSet):** Consists of 431 residues from 10 proteins with experimentally determined protection factors (PFs) measured via HDX-NMR to validate biophysical relevance.
