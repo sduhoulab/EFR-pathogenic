@@ -1,5 +1,7 @@
 # **LMEFold: A Deep Learning Framework for Early Folding Residue Prediction and Disease Association Analysis**
 ## **Workflow**
+<img width="2480" height="3508" alt="模型1 12" src="https://github.com/user-attachments/assets/7c8ea425-35ce-4040-9ccb-a2bf338f3d11" />
+
 We established a comprehensive framework integrating deep learning with biophysical and clinical validation to decode the role of Early Folding Residues (EFRs) in protein stability and disease.
 
 **Model Construction:** We developed LMEFold using embeddings from the ESM-2 protein language model to capture latent structural information from sequence alone.
@@ -15,11 +17,11 @@ Source: [sduhoulab/LMEFold at main](https://huggingface.co/datasets/sduhoulab/LM
 
 
 **Dataset 2 (External Validation - PF-HDX-EvalSet):** Consists of 431 residues from 10 proteins with experimentally determined protection factors (PFs) measured via HDX-NMR to validate biophysical relevance.
-Source Details: Defined in Table S3 of the manuscript.
+Source Details: https://pubmed.ncbi.nlm.nih.gov/34739840/.
 
 
 **Dataset 3 (Case Studies):** Structural data for E. coli RNase H (PDB: 1F21) and HIV-1 reverse transcriptase (PDB: 1HRH).
-Source: RCSB PDB
+Source: https://www.rcsb.org/
 
 ### Genomic and Clinical Cohorts
 **Dataset 4 (Germline Variants):**
@@ -37,7 +39,7 @@ UK Biobank: https://www.ukbiobank.ac.uk/
 **Dataset 5 (Somatic & Clinical - MSK-MET):**
 A pan-cancer cohort containing 129,411 somatic nonsynonymous single-nucleotide variants (nsSNVs) with corresponding patient survival data.
 
-Source: [cBioPortal / MSK-MET](https://www.cbioportal.org/)
+Source: https://www.cbioportal.org/
 
 ## **Methods**
 ### Core Framework
