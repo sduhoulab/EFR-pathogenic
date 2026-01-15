@@ -59,7 +59,7 @@ Source: https://github.com/agemagician/ProtTrans
 
 **EFoldMine:** The state-of-the-art sequence-based predictor for early folding residues using handcrafted features.
 
-Source: http://www.csbio.sjtu.edu.cn/bioinf/EFoldMine/
+Source:  https://figshare.com/articles/EFoldMine_code/5649373 
 
 ### Structural Analysis Tools
 **FoldX 5.0:** Used for calculating folding free energy changes (ΔΔG).
