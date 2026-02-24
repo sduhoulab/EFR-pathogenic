@@ -13,9 +13,9 @@ We established a comprehensive framework integrating deep learning with biophysi
 
 ## **Datasets**
 ### Training and Biophysical Validation
-**Dataset 1 (Training - Benchmark37):** Derived from the Start2Fold database. Contains 37 proteins with high-quality experimental annotations (HDX/NMR) defining early folding sites.
+**Dataset 1 (Training - Benchmark30):** Derived from the Start2Fold database. Contains 30 proteins with high-quality experimental annotations (HDX/NMR) defining early folding sites.
 
-Source: https://huggingface.co/datasets/sduhoulab/LMEFold/tree/main/data
+Source: https://huggingface.co/LMEFold/LMEFold
 
 
 **Dataset 2 (External Validation - PF-HDX-EvalSet):** Consists of 431 residues from 10 proteins with experimentally determined protection factors (PFs) measured via HDX-NMR to validate biophysical relevance.
@@ -23,7 +23,7 @@ Source: https://huggingface.co/datasets/sduhoulab/LMEFold/tree/main/data
 Source Details: https://pubmed.ncbi.nlm.nih.gov/34739840/.
 
 
-**Dataset 3 (Case Studies):** Structural data for E. coli RNase H (PDB: 1F21) and HIV-1 reverse transcriptase (PDB: 1HRH).
+**Dataset 3 (Case Studies):** Structural data for myoglobin (PDB: 1MBC) and ubiquitin (PDB: 1UBQ).
 
 Source: https://www.rcsb.org/
 
@@ -49,7 +49,7 @@ Source: https://www.cbioportal.org/
 ### Core Framework
 **LMEFold:** The proposed framework based on the ESM-2 protein language model (specifically esm2_t30_650M_UR50D) for EFR prediction.
 
-Repository: https://huggingface.co/datasets/sduhoulab/LMEFold
+Repository: https://huggingface.co/LMEFold/LMEFold
 
 ### Baselines & Comparators
 **ESM-2:** Pre-trained evolutionary scale modeling.
