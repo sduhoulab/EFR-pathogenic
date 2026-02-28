@@ -15,7 +15,7 @@ We established an integrated deep learning–biophysics–clinical framework to 
 ### Training and Biophysical Validation
 **Dataset 1 (Training - Benchmark30):** Derived from the Start2Fold database. Contains 30 proteins with high-quality experimental annotations (HDX/NMR) defining early folding sites.
 
-Source: https://huggingface.co/LMEFold/LMEFold
+Source: https://www.bio2byte.be/start2fold/
 
 
 **Dataset 2 (External Validation - PF-HDX-EvalSet):** Consists of 431 residues from 10 proteins with experimentally determined protection factors (PFs) measured via HDX-NMR to validate biophysical relevance.
@@ -60,7 +60,7 @@ Source: https://www.cbioportal.org/
 ### Core Framework
 **LMEFold:** The proposed framework based on the ESM-2 protein language model (specifically esm2_t30_150M_UR50D) for EFR prediction.
 
-Repository: https://www.bio2byte.be/start2fold/
+Repository: https://huggingface.co/LMEFold/LMEFold
 
 ### Baselines & Comparators
 **ESM-2:** Pre-trained evolutionary scale modeling.
