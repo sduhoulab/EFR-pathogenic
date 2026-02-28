@@ -28,7 +28,8 @@ Source: https://pubmed.ncbi.nlm.nih.gov/34739840/.
 Source: https://www.rcsb.org/
 
 ### Genomic and Clinical Cohorts
-**Dataset 4 (Germline Variants):**
+**Dataset 4 (Germline Variant Database):**
+
 **Pathogenic Variants:** 23,369 pathogenic missense variants were extracted and retained from ClinVar.
 
 Source: www.ncbi.nlm.nih.gov/clinvar/
@@ -39,14 +40,17 @@ Source: www.ncbi.nlm.nih.gov/clinvar/
 
 **gnomAD:** A total of 4,667,175 variants were extracted and retained.
 
+
 Source: https://gnomad.broadinstitute.org/
 
+
 **UK Biobank (UKB):** A total of 1,952,086 variants were extracted and retained.
+
 
 Source: https://www.ukbiobank.ac.uk/
 
 
-**Dataset 5 (Somatic Variant):**
+**Dataset 5 (Somatic Variant  Database):**
 **MSK-MET Cohort:** A total of 129,411 somatic non-synonymous single nucleotide variants were extracted, along with corresponding clinical records.
 
 Source: https://www.cbioportal.org/
