@@ -20,7 +20,7 @@ Source: https://huggingface.co/LMEFold/LMEFold
 
 **Dataset 2 (External Validation - PF-HDX-EvalSet):** Consists of 431 residues from 10 proteins with experimentally determined protection factors (PFs) measured via HDX-NMR to validate biophysical relevance.
 
-Source Details: https://pubmed.ncbi.nlm.nih.gov/34739840/.
+Source: https://pubmed.ncbi.nlm.nih.gov/34739840/.
 
 
 **Dataset 3 (Case Studies):** Structural data for myoglobin (PDB: 1MBC) and ubiquitin (PDB: 1UBQ).
@@ -29,19 +29,25 @@ Source: https://www.rcsb.org/
 
 ### Genomic and Clinical Cohorts
 **Dataset 4 (Germline Variants):**
-**Pathogenic:** 23,370 missense variants from ClinVar.
+**Pathogenic Variants:** 23,369 pathogenic missense variants were extracted and retained from ClinVar.
 
-ClinVar：https://www.ncbi.nlm.nih.gov/clinvar/
+Source: www.ncbi.nlm.nih.gov/clinvar/
+
 
 **Population Control:** ~6.6 million common variants from gnomAD and UK Biobank (UKB).
 
-gnomAD: https://gnomad.broadinstitute.org/
 
-UK Biobank: https://www.ukbiobank.ac.uk/
+**gnomAD:** A total of 4,667,175 variants were extracted and retained.
+
+Source: https://gnomad.broadinstitute.org/
+
+**UK Biobank (UKB):** A total of 1,952,086 variants were extracted and retained.
+
+Source: https://www.ukbiobank.ac.uk/
 
 
-**Dataset 5 (Somatic & Clinical - MSK-MET):**
-A pan-cancer cohort containing 129,411 somatic nonsynonymous single-nucleotide variants (nsSNVs) with corresponding patient survival data.
+**Dataset 5 (Somatic Variant):**
+**MSK-MET Cohort:** A total of 129,411 somatic non-synonymous single nucleotide variants were extracted, along with corresponding clinical records.
 
 Source: https://www.cbioportal.org/
 
