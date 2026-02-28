@@ -3,13 +3,13 @@
 ![5d1acee5a92e6f8e6c24944b2813f7c2](https://github.com/user-attachments/assets/0eb80cac-3e3f-4e21-bc06-a8a6275390cb)
 
 
-We established a comprehensive framework integrating deep learning with biophysical and clinical validation to decode the role of Early Folding Residues (EFRs) in protein stability and disease.
+We established an integrated deep learning–biophysics–clinical framework to elucidate the role of Early Folding Residues (EFRs) in protein stability and disease.
 
-**Model Construction:** We developed LMEFold using embeddings from the ESM-2 protein language model to capture latent structural information from sequence alone.
+**Model development:** LMEFold leverages ESM-2 embeddings to extract sequence-derived structural signals and is optimized using nested cross-validation.
 
-**Benchmarking:** The model was optimized via a nested cross-validation scheme and evaluated against state-of-the-art sequence-based predictors (e.g., EFoldMine) and general PLMs (ProtBERT, ProtT5). Metrics included AUC, Pearson correlation (with HDX-NMR data), and spatial consistency with native structures.
+**Benchmarking and validation:** The model was systematically compared with state-of-the-art sequence-based predictors and general PLMs, with evaluation spanning predictive performance, representation analysis, structural consistency, and biophysical generalization on an independent HDX-based dataset.
 
-**Clinical Application:** We applied LMEFold to annotate over 6.6 million variants across diverse genomic datasets. We systematically assessed the enrichment of pathogenic mutations in EFRs and, using the MSK-MET pan-cancer cohort, investigated the association between EFR mutations and patient survival outcomes.
+**Clinical application:** LMEFold was applied at scale to population and disease variant datasets to characterize the enrichment and clinical relevance of mutations occurring in EFRs.
 
 ## **Datasets**
 ### Training and Biophysical Validation
