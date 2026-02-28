@@ -75,12 +75,38 @@ Source: https://github.com/agemagician/ProtTrans
 
 Source:  https://figshare.com/articles/EFoldMine_code/5649373 
 
-### Structural Analysis Tools
+
+
+### Variant Effect Prediction Tools
 **FoldX 5.0:** Used for calculating folding free energy changes (ΔΔG).
 
 Source: http://foldxsuite.crg.eu/
 
-
-**VEP (Variant Effect Predictor):** Used for mapping genomic variants to protein residues.
+**VEP (Variant Effect Predictor):** Used for mapping genomic variants to protein residues and predicting their molecular consequences.
 
 Source: https://www.ensembl.org/info/docs/tools/vep/index.html
+
+
+**ConSurf:** Used for identifying functional regions in proteins by estimating evolutionary conservation through phylogenetic analysis.
+
+Source: https://consurf.tau.ac.il/
+
+
+**ConSurf 2016:** An improved methodology for estimating and visualizing evolutionary conservation in macromolecules.
+
+Source: https://consurf.tau.ac.il/
+
+
+**IUPred3:** Used for predicting intrinsic protein disorder, enhanced with experimental annotations.
+
+Source: https://iupred3.elte.hu/
+
+
+**SIFT:** Used for predicting whether an amino acid substitution affects protein function based on sequence homology.
+
+Source: https://sift.bii.a-star.edu.sg/
+
+
+**PolyPhen-2:** Used for predicting the potential impact of missense mutations on protein structure and function.
+
+Source: http://genetics.bwh.harvard.edu/pph2/
