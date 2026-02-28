@@ -38,13 +38,13 @@ Source: www.ncbi.nlm.nih.gov/clinvar/
 **Population Control:** ~6.6 million common variants from gnomAD and UK Biobank (UKB).
 
 
-**gnomAD:** A total of 4,667,175 variants were extracted and retained.
+gnomAD: A total of 4,667,175 variants were extracted and retained.
 
 
 Source: https://gnomad.broadinstitute.org/
 
 
-**UK Biobank (UKB):** A total of 1,952,086 variants were extracted and retained.
+UK Biobank (UKB): A total of 1,952,086 variants were extracted and retained.
 
 
 Source: https://www.ukbiobank.ac.uk/
@@ -52,7 +52,7 @@ Source: https://www.ukbiobank.ac.uk/
 
 **Dataset 5 (Somatic Variant  Database):**
 
-**MSK-MET Cohort:** A total of 129,411 somatic non-synonymous single nucleotide variants were extracted, along with corresponding clinical records.
+MSK-MET Cohort:A total of 129,411 somatic non-synonymous single nucleotide variants were extracted, along with corresponding clinical records.
 
 Source: https://www.cbioportal.org/
 
