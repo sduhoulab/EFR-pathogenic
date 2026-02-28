@@ -106,6 +106,10 @@ Source: https://iupred3.elte.hu/
 
 Source: https://sift.bii.a-star.edu.sg/
 
+**CD-HIT:** Used for clustering and comparing large sets of protein or nucleotide sequences to reduce redundancy.
+
+Source: http://weizhong-lab.ucsd.edu/cd-hit/
+
 
 **PolyPhen-2:** Used for predicting the potential impact of missense mutations on protein structure and function.
 
