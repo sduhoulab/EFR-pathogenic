@@ -58,9 +58,9 @@ Source: https://www.cbioportal.org/
 
 ## **Methods**
 ### Core Framework
-**LMEFold:** The proposed framework based on the ESM-2 protein language model (specifically esm2_t30_150M_UR50D) for EFR prediction.
+**LMEFold:** The proposed framework based on the ESM-2 protein language model for EFR prediction.
 
-Repository: https://huggingface.co/LMEFold
+Repository: https://huggingface.co/LMEFold , which hosts the pretrained LMEFold models and related resources generated in this study.
 
 ### Baselines & Comparators
 **ESM-2:** Pre-trained evolutionary scale modeling.
