@@ -24,7 +24,7 @@ sys.path.append('/kaggle/input/zidingyi-xiuendata1')
 from dataloader import EntDataset, get_data
 
 MODEL_PATH = "facebook/esm2_t30_150M_UR50D"
-WEIGHTS_PATH = '/kaggle/input/9pcy-new-esm-t30-jiudaima/val_model_besteo_2_dp_0.1_lr_5e-05_bz_1.pkl'  # 修改为实际路径
+WEIGHTS_PATH = '/kaggle/input/9pcy-new-esm-t30-jiudaima/val_model_besteo_2_dp_0.1_lr_5e-05_bz_1.pkl'  # Change to the actual path.
 
 TEST_FILE = '/kaggle/input/zhou-2wan-part/zhou_2wan_part.csv'
 
