@@ -181,7 +181,7 @@ class EarlyStopping:
 
 from sklearn.model_selection import train_test_split
 
-#ner_file_path = '/kaggle/input/all37-datafold/第9组/1hel_train.csv'
+#ner_file_path = '/kaggle/input/all37-datafold/Group_9/1hel_train.csv'
 ner_data = get_data(ner_file_path)
 
 
@@ -202,7 +202,7 @@ ner_loader_val = DataLoader(val_subset, batch_size=BATCH_SIZE, collate_fn=val_su
 total_steps = len(ner_loader_train) * EPOCH
 optimizer = set_optimizer(net, train_steps=total_steps, lr=lr)
 scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
-early_stopping = EarlyStopping(patience=3, verbose=True)#早停策略
+early_stopping = EarlyStopping(patience=3, verbose=True)#Early stopping strategy
 accuracy = torchmetrics.Accuracy(task='binary', ignore_index=-100).to(device)
 
 
