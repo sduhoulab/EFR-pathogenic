@@ -20,21 +20,20 @@ from transformers import (
 )
 import tqdm
 
-sys.path.append('/kaggle/input/zidingyi-xiuendata1')
+#sys.path.append('/kaggle/input/zidingyi-xiuendata1')
 from dataloader import EntDataset, get_data
 
 MODEL_PATH = "facebook/esm2_t30_150M_UR50D"
-WEIGHTS_PATH = '/kaggle/input/9pcy-new-esm-t30-jiudaima/val_model_besteo_2_dp_0.1_lr_5e-05_bz_1.pkl'  # Change to the actual path.
+WEIGHTS_PATH = './checkpoints/val_model_besteo_2_dp_0.1_lr_5e-05_bz_1.pkl' # Change to the actual path.
 
-TEST_FILE = '/kaggle/input/zhou-2wan-part/zhou_2wan_part.csv'
+TEST_FILE = './data/test_data.csv'
 
 BATCH_SIZE = 1
 #MAX_LEN = 1024
 MAX_LEN = 2048
 DROPO = 0.1
 SEED = 681
-OUTPUT_DIR = '/kaggle/working'
-
+OUTPUT_DIR = './outputs'
 
 
 def set_seed(seed: int = 681) -> None:
@@ -290,7 +289,7 @@ def main():
 
 
     print("\n" + "="*60)
-    print("                    TEST RESULTS (zidong)")
+    print("                    TEST RESULTS")
     print("="*60)
     print(f"  AUC:         {results['auc']:.4f}")
     print(f"  Accuracy:    {results['acc']:.4f}")
@@ -302,7 +301,7 @@ def main():
 
 
     results_df = pd.DataFrame([results])
-    results_df.insert(0, 'type', 'zidong')
+    results_df.insert(0, 'type', 'default')
     metrics_path = os.path.join(OUTPUT_DIR, 'test_result.csv')
     results_df.to_csv(metrics_path, index=False)
     print(f"\nMetrics saved to: {metrics_path}")
@@ -310,7 +309,7 @@ def main():
 
     pred_df = pd.DataFrame(predictions)
     pred_df['auc'] = results['auc']
-    pred_path = os.path.join(OUTPUT_DIR, 'forecast_fenshu.csv')
+    pred_path = os.path.join(OUTPUT_DIR, 'predictions.csv')
     pred_df.to_csv(pred_path, index=False)
     print(f"Predictions saved to: {pred_path}")
 
