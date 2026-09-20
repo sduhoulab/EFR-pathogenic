@@ -11,7 +11,7 @@
 
 
 import sys
-sys.path.append('/kaggle/input/zidingyi-xiuendata1')
+#sys.path.append('/kaggle/input/zidingyi-xiuendata1')
 import argparse
 import configparser
 import os
@@ -51,8 +51,7 @@ parser.add_argument('--lr', default='1e-5', type=float, help='Learning rate')
 parser.add_argument('--BATCH_SIZE', default=1, type=int, help='Batch size')
 
 
-ner_file_path = '/kaggle/input/new-30data-27fold/num27_9pcy/9pcy_train.csv'
-
+ner_file_path = './data/9pcy_train.csv'
 
 parser.add_argument('--task', default='epi', type=str, help='Task name')
 
@@ -387,8 +386,8 @@ for eo in range(EPOCH):  # epoch
     aucfuneval.reset()
 
 
-
-model_save_path = f'/kaggle/working/val_model_besteo_{besteo}_dp_{dropo}_lr_{lr}_bz_{BATCH_SIZE}.pkl'
+os.makedirs('./checkpoints', exist_ok=True)
+model_save_path = f'./checkpoints/val_model_besteo_{besteo}_dp_{dropo}_lr_{lr}_bz_{BATCH_SIZE}.pkl'
 torch.save(best_model_state, model_save_path)
 print(f"Best model for Fold saved at {model_save_path}") 
 
