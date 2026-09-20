@@ -212,7 +212,7 @@ def test_model(
 
 
             out = net(input_ids, attention_mask)
-            out = out[:, 1:-1, :]  # 去掉[CLS]和[SEP]
+            out = out[:, 1:-1, :]  # Remove [CLS] and [SEP]
 
             b, l, n = out.size()
             attention_mask = attention_mask[:, 1:-1]
