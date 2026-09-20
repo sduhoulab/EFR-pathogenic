@@ -60,7 +60,7 @@ Source: https://www.cbioportal.org/
 ### Core Framework
 **LMEFold:** The proposed framework based on the ESM-2 protein language model for EFR prediction.
 
-Repository: https://huggingface.co/LMEFold , which hosts the pretrained LMEFold models and related resources generated in this study.
+Repository: https://github.com/sduhoulab/EFR-pathogenic , which hosts the pretrained LMEFold models and related resources generated in this study.
 
 ### Baselines & Comparators
 **ESM-2:** Pre-trained evolutionary scale modeling.
