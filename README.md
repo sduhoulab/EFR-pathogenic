@@ -114,3 +114,19 @@ Source: http://weizhong-lab.ucsd.edu/cd-hit/
 **PolyPhen-2:** Used for predicting the potential impact of missense mutations on protein structure and function.
 
 Source: http://genetics.bwh.harvard.edu/pph2/
+
+## **Environment & Requirements**
+The analysis scripts and model training pipelines require Python >= 3.8 and the following packages:
+
+- torch >= 2.0.0
+- transformers >= 4.30.0
+- torchmetrics >= 1.0.0
+- scikit-learn >= 1.2.0
+- pandas >= 1.5.0
+- numpy >= 1.23.0
+- tqdm >= 4.65.0
+
+### Installation
+To install the dependencies:
+```bash
+pip install torch transformers torchmetrics scikit-learn pandas numpy tqdm
