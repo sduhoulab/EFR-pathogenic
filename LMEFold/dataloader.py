@@ -81,7 +81,7 @@ class EntDataset(Dataset):
         # encoder_text = self.tokenizer(' '.join([i for i in text]),  max_length=self.max_len, truncation=True)
         encoder_text = self.tokenizer(text, max_length=self.max_len, truncation=True)
         input_ids = encoder_text["input_ids"]
-       # token_type_ids = encoder_text["token_type_ids"]  # RoBERTa不需要NSP任务
+       # token_type_ids = encoder_text["token_type_ids"]  # RoBERTa does not require the NSP task.
         attention_mask = encoder_text["attention_mask"]
 
         return text, label, input_ids, attention_mask#, token_type_ids
@@ -120,6 +120,6 @@ class EntDataset(Dataset):
         batch_token_ids = torch.tensor(sequence_padding(batch_token_ids)).long()
         batch_labels = torch.tensor(sequence_padding(batch_labels)).float()
         batch_mask_ids = torch.tensor(sequence_padding(batch_mask_ids)).float()
-        #batch_token_type_ids = torch.tensor(sequence_padding(batch_token_type_ids)).long()  # RoBERTa 不需要NSP
+        #batch_token_type_ids = torch.tensor(sequence_padding(batch_token_type_ids)).long()  # RoBERTa does not require the NSP task.
 
         return text_list, batch_labels, batch_token_ids, batch_mask_ids#, batch_token_type_ids
