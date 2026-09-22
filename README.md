@@ -118,15 +118,16 @@ Source: http://genetics.bwh.harvard.edu/pph2/
 ## **Environment & Requirements**
 The analysis scripts and model training pipelines require Python >= 3.8 and the following packages:
 
-- torch >= 2.0.0
-- transformers >= 4.30.0
-- torchmetrics >= 1.0.0
-- scikit-learn >= 1.2.0
-- pandas >= 1.5.0
-- numpy >= 1.23.0
-- tqdm >= 4.65.0
+- torch >= 1.9.0
+- transformers >= 4.12.0
+- torchmetrics >= 0.6.0
+- scikit-learn >= 0.24.0
+- pandas >= 1.3.0
+- numpy >= 1.21.0
+- tqdm >= 4.62.0
+- sentencepiece >= 0.1.96
 
 ### Installation
 To install the dependencies:
 ```bash
-pip install torch transformers torchmetrics scikit-learn pandas numpy tqdm
+pip install torch transformers torchmetrics scikit-learn pandas numpy tqdm sentencepiece
