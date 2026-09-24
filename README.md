@@ -144,7 +144,7 @@ cd LMEFold
 pip install torch transformers torchmetrics scikit-learn pandas numpy tqdm sentencepiece
 ```
 
-## 🚀 **Quick Start**
+##  **Quick Start**
 
 The project mainly consists of two core workflows: Model Training (`main.py`) and Model Testing/Inference (`test.py`).
 
@@ -181,17 +181,13 @@ python test.py
 
 After execution, the evaluation metrics (AUC, Accuracy, F1 Score, etc.) and detailed prediction probabilities will be automatically saved in the `./outputs/` directory.
 
----
-
-## 📁 **Core File Structure**
+##  **Core File Structure**
 
 - `main.py`: Main model training script, including cross-validation, early stopping, and optimizer configuration.
 - `test.py`: Model inference and evaluation script, automatically loading weights and outputting classification metrics.
 - `dataloader.py`: Data loading and preprocessing module (including sequence padding and PyTorch Dataset wrapping).
 - `bert_optimization.py`: Learning rate schedulers (e.g., Cosine, Linear Warmup) and custom optimizers (e.g., BertAdam, EMA).
 
----
-
-## 💡 **Contribution & Feedback**
+##  **Contribution & Feedback**
 
 If you encounter any issues or have suggestions while using this project, feel free to submit Issues or open a Pull Request!
