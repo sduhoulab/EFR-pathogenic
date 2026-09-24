@@ -148,7 +148,9 @@ The project mainly consists of two core workflows: Model Training (`main.py`) an
 
 If you wish to train the model on your own dataset, you can run `main.py`. The script supports configuring hyperparameters (such as learning rate, dropout, batch size, etc.) via command-line arguments:
 
-    python main.py --task epi --lr 1e-5 --dropo 0.1 --BATCH_SIZE 1
+```bash
+python main.py --task epi --lr 1e-5 --dropo 0.1 --BATCH_SIZE 1
+```
 
 **Key Arguments:**
 
@@ -169,7 +171,9 @@ Verify that the path configurations in `test.py` are correct:
 
 Run the testing script:
 
-    python test.py
+```bash
+python test.py
+```
 
 After execution, the evaluation metrics (AUC, Accuracy, F1 Score, etc.) and detailed prediction probabilities will be automatically saved in the `./outputs/` directory.
 
