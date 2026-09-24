@@ -115,7 +115,7 @@ Source: http://weizhong-lab.ucsd.edu/cd-hit/
 
 Source: http://genetics.bwh.harvard.edu/pph2/
 
-## **Environment & Requirements**
+### Environment & Requirements
 The analysis scripts and model training pipelines require Python >= 3.8 and the following packages:
 
 - torch >= 1.9.0
@@ -129,12 +129,11 @@ The analysis scripts and model training pipelines require Python >= 3.8 and the 
 
 ### Installation
 Before getting started, make sure you have Python 3.8+ and PyTorch installed. Running in a GPU environment is strongly recommended for better performance.
-```bash
+
 # Clone the repository
 git clone [https://github.com/YourUsername/LMEFold.git](https://github.com/YourUsername/LMEFold.git)
 cd LMEFold
 
-```bash
 # Install dependencies
 pip install torch transformers torchmetrics scikit-learn pandas numpy tqdm sentencepiece
 
