@@ -18,7 +18,7 @@ We established an integrated deep learning–biophysics–clinical framework to 
 Source: https://www.bio2byte.be/start2fold/
 
 
-**Dataset 2 (External Validation - PF-HDX-EvalSet):** Consists of 431 residues from 10 proteins with experimentally determined protection factors (PFs) measured via HDX-NMR to validate biophysical relevance.
+**Dataset 2 (PF-HDX-EvalSet):** Consists of 431 residues from 10 proteins with experimentally determined protection factors (PFs) measured via HDX-NMR to validate biophysical relevance.
 
 Source: https://pubmed.ncbi.nlm.nih.gov/34739840/.
 
@@ -60,7 +60,7 @@ Source: https://www.cbioportal.org/
 ### Core Framework
 **LMEFold:** The proposed framework based on the ESM-2 protein language model for EFR prediction.
 
-Repository: https://github.com/sduhoulab/EFR-pathogenic , which hosts the pretrained LMEFold models and related resources generated in this study.
+Repository: https://github.com/sduhoulab/EFR-pathogenic/tree/main/LMEFold, which hosts the pretrained LMEFold models and related resources generated in this study.
 
 ### Baselines & Comparators
 **ESM-2:** Pre-trained evolutionary scale modeling.
@@ -106,14 +106,15 @@ Source: https://iupred3.elte.hu/
 
 Source: https://sift.bii.a-star.edu.sg/
 
-**CD-HIT:** Used for clustering and comparing large sets of protein or nucleotide sequences to reduce redundancy.
-
-Source: http://weizhong-lab.ucsd.edu/cd-hit/
-
 
 **PolyPhen-2:** Used for predicting the potential impact of missense mutations on protein structure and function.
 
 Source: http://genetics.bwh.harvard.edu/pph2/
+
+
+**CD-HIT:** Used for clustering and comparing large sets of protein or nucleotide sequences to reduce redundancy.
+
+Source: http://weizhong-lab.ucsd.edu/cd-hit/
 
 ### Environment & Requirements
 The analysis scripts and model training pipelines require Python >= 3.8 and the following packages:
