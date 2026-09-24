@@ -128,10 +128,13 @@ The analysis scripts and model training pipelines require Python >= 3.8 and the 
 - sentencepiece >= 0.1.96
 
 ### Installation
+
 Before getting started, make sure you have Python 3.8+ and PyTorch installed. Running in a GPU environment is strongly recommended for better performance.
 
-# Clone the repository
-git clone [https://github.com/YourUsername/LMEFold.git](https://github.com/YourUsername/LMEFold.git)
+#### Clone the repository
+
+```bash
+git clone https://github.com/YourUsername/LMEFold.git
 cd LMEFold
 
 # Install dependencies
