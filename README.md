@@ -127,24 +127,28 @@ The analysis scripts and model training pipelines require Python >= 3.8 and the 
 - tqdm >= 4.62.0
 - sentencepiece >= 0.1.96
 
-### Installation
+### **Installation**
 
 Before getting started, make sure you have Python 3.8+ and PyTorch installed. Running in a GPU environment is strongly recommended for better performance.
 
-#### Clone the repository
+#### **Clone the repository**
 
 ```bash
 git clone https://github.com/YourUsername/LMEFold.git
 cd LMEFold
+```
 
-# Install dependencies
+#### **Install dependencies**
+
+```bash
 pip install torch transformers torchmetrics scikit-learn pandas numpy tqdm sentencepiece
+```
 
-## 🚀 Quick Start
+## 🚀 **Quick Start**
 
 The project mainly consists of two core workflows: Model Training (`main.py`) and Model Testing/Inference (`test.py`).
 
-### 1. Model Training
+### **1. Model Training**
 
 If you wish to train the model on your own dataset, you can run `main.py`. The script supports configuring hyperparameters (such as learning rate, dropout, batch size, etc.) via command-line arguments:
 
@@ -159,7 +163,7 @@ python main.py --task epi --lr 1e-5 --dropo 0.1 --BATCH_SIZE 1
 - `--dropo`: Dropout rate (default 0.1)
 - `--BATCH_SIZE`: Batch size (default 1)
 
-### 2. Model Inference & Testing
+### **2. Model Inference & Testing**
 
 Once you have a trained weight file (e.g., `./checkpoints/val_model_besteo_2_dp_0.1_lr_5e-05_bz_1.pkl`), you can evaluate the test set and output metrics and prediction results using `test.py`.
 
@@ -179,7 +183,7 @@ After execution, the evaluation metrics (AUC, Accuracy, F1 Score, etc.) and deta
 
 ---
 
-## 📁 Core File Structure
+## 📁 **Core File Structure**
 
 - `main.py`: Main model training script, including cross-validation, early stopping, and optimizer configuration.
 - `test.py`: Model inference and evaluation script, automatically loading weights and outputting classification metrics.
@@ -188,6 +192,6 @@ After execution, the evaluation metrics (AUC, Accuracy, F1 Score, etc.) and deta
 
 ---
 
-## 💡 Contribution & Feedback
+## 💡 **Contribution & Feedback**
 
 If you encounter any issues or have suggestions while using this project, feel free to submit Issues or open a Pull Request!
