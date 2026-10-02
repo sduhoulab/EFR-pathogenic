@@ -139,8 +139,8 @@ Before getting started, make sure you have Python 3.8+ and PyTorch installed. Ru
 #### **Clone the repository**
 
 ```bash
-git clone https://github.com/YourUsername/LMEFold.git
-cd LMEFold
+git clone https://github.com/sduhoulab/EFR-pathogenic.git
+cd EFR-pathogenic
 ```
 
 #### **Install dependencies**
