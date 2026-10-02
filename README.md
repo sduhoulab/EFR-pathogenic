@@ -60,11 +60,17 @@ Source: https://www.cbioportal.org/
 ### Core Framework
 **LMEFold:** The proposed framework based on the ESM-2 protein language model for EFR prediction.
 
-Repository: https://github.com/sduhoulab/EFR-pathogenic/tree/main/LMEFold, which hosts the pretrained LMEFold models and related resources generated in this study.
+The complete source code, training and evaluation pipelines, and reproducibility resources are available in the main GitHub repository:
 
-The 27 trained fold-specific LMEFold models are publicly available at: https://huggingface.co/LMEFold/models
+https://github.com/sduhoulab/EFR-pathogenic/tree/main/LMEFold
 
-For convenient evaluation on new protein sequences, an online prediction interface integrating the 27 models is available at: https://huggingface.co/spaces/sduhoulab/LMEFold_Agent
+The 27 trained fold-specific LMEFold models are publicly available through Hugging Face:
+
+https://huggingface.co/LMEFold/models
+
+For convenient evaluation on new protein sequences, an online prediction interface integrating the 27 trained models is available at:
+
+https://huggingface.co/spaces/sduhoulab/LMEFold_Agent
 
 ### Baselines & Comparators
 **ESM-2:** Pre-trained evolutionary scale modeling.
