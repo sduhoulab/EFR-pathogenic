@@ -62,6 +62,10 @@ Source: https://www.cbioportal.org/
 
 Repository: https://github.com/sduhoulab/EFR-pathogenic/tree/main/LMEFold, which hosts the pretrained LMEFold models and related resources generated in this study.
 
+The 27 trained fold-specific LMEFold models are publicly available at: https://huggingface.co/LMEFold/models
+
+For convenient evaluation on new protein sequences, an online prediction interface integrating the 27 models is available at: https://huggingface.co/spaces/sduhoulab/LMEFold_Agent
+
 ### Baselines & Comparators
 **ESM-2:** Pre-trained evolutionary scale modeling.
 
@@ -181,6 +185,10 @@ python test.py
 ```
 
 After execution, the evaluation metrics (AUC, Accuracy, F1 Score, etc.) and detailed prediction probabilities will be automatically saved in the `./outputs/` directory.
+
+For users who prefer online evaluation, LMEFold can also be evaluated using the following web interface, which integrates the 27 trained models:
+
+https://huggingface.co/spaces/sduhoulab/LMEFold_Agent
 
 ##  **Core File Structure**
 
